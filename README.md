@@ -41,7 +41,7 @@ Example Playbook
 - hosts: all
   become: true
   roles:
-    - { role: centos-kernel }
+    - { role: galaxy-centos-kernel }
 ```
 
 License
