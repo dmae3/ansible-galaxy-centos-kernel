@@ -41,7 +41,7 @@ Example Playbook
 - hosts: all
   become: true
   roles:
-    - { role: ansible-galaxy-centos-kernel }
+    - { role: centos-kernel }
 ```
 
 License
